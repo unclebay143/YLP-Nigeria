@@ -718,6 +718,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 30px 0;
 }
 
+#speakers .speaker img{
+  /* opacity: 0.1;   */
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 #speakers .speaker {
   position: relative;
   overflow: hidden;
