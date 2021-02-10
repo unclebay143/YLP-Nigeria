@@ -702,7 +702,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .mission {
   margin-bottom: 10px;
-  margin-top: 130px;
+  /* margin-top: 130px; */
+}
+
+@media (max-width: 900px){
+  #about .mission {
+    margin-bottom: 10px;
+    margin-top: 100px;
+  }
 }
 
 #about p {
@@ -719,7 +726,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker img{
-  /* opacity: 0.1;   */
   width: 200px;
   display: block;
   margin: 0 auto;
