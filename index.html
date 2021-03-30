@@ -67,9 +67,9 @@
           <li><a href="#about">About</a></li>
           <!-- <li><a href="#speakers">Programmes</a></li> -->
           <!-- <li><a href="#schedule">Directors</a></li> -->
-          <li><a href="#speakers">Officers</a></li>
+          <li><a href="#speakers">Directors</a></li>
           <li><a href="#membership">Membership</a></li>
-          <li><a href="#gallery">Fellowship</a></li>
+          <li><a href="/assets/doc/YLP PROGRAMMES.pdf" target="_blank">Programmes</a></li>
           <li><a href="#contact">Donate</a></li>
           <!-- <li><a href="#contact">Contact</a></li> -->
           <li class="join-us"><a href="#contact">Join us</a></li>
@@ -116,8 +116,8 @@
     <section id="speakers">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2>YLP Principal Officers</h2>
-          <p>Here are some of our principal officers</p>
+          <h2>Meet Our Directors</h2>
+          <p>Here are some of YLP Directors</p>
         </div>
 
         <div class="row">
@@ -126,7 +126,7 @@
               <img src="assets/img/speakers/1.svg" alt="Speaker 1" class="img-fluid">
               <div class="details">
                 <h3><a href="speaker-details.html">Yusuff Liadi Abiodun</a></h3>
-                <p>Deputy Executive Director</p>
+                <p>Executive Director</p>
                 <div class="social">
                   <a href=""><i class="fa fa-twitter"></i></a>
                   <a href=""><i class="fa fa-facebook"></i></a>
@@ -225,10 +225,10 @@
           <p>Subscribe to our Newsletter to stay informed about YLP events</p>
         </div>
 
-        <form method="POST" action="#">
+        <form name="subscribe" method="POST" data-netlify="true">
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-10 d-flex">
-              <input type="text" class="form-control" placeholder="Enter your Email">
+              <input type="text" name="sub-email" class="form-control" placeholder="Enter your Email">
               <button type="submit" class="ms-2">Subscribe</button>
             </div>
           </div>
@@ -280,23 +280,23 @@
         </div>
 
         <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form name="contact" method="POST" data-netlify="true" class="php-email-form">
             <div class="row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
                 <div class="validate"></div>
               </div>
               <div class="form-group col-md-6 mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
                 <div class="validate"></div>
               </div>
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
               <div class="validate"></div>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
               <div class="validate"></div>
             </div>
             <div class="mb-3">
@@ -339,11 +339,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              FCT, Abuja <br>
-              Nigeria  <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Suite 17,<br /> 
+              Wuye Modern Market,<br /> 
+              FCT Abuja, Nigeria. <br />
+              <strong>Phone:</strong> +234 70 6318 8125<br>
+              <strong>Email:</strong> <span>youthleadershipparliamentng@gmail.com</span><br>
             </p>
 
             <div class="social-links">
@@ -375,7 +375,7 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/superfish/superfish.min.js"></script>
