@@ -726,9 +726,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers .speaker img{
-  width: 200px;
+  width: 220px;
+  height: 250px;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 #speakers .speaker {
