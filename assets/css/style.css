@@ -8,6 +8,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img.logo{
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+}
+
 a {
   color: #AD2051;
   text-decoration: none;
