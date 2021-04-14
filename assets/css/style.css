@@ -736,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 250px;
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 100%;
 }
 
 #speakers .speaker {
